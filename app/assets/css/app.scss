@@ -1,9 +1,51 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-color: lightgray;
+$greendark : #3E4D27;
+$greenlight : #A4CB68;
+$greylight : #EEEEEE;
+$greydark : #707070;
+
+.header {
+    background-color: $greylight;
+    max-height: 80px;
+    height: 80px;
 }
 
-.textred {
-    color: violet;
+.btn-test {
+    background-color: $greenlight !important;
+    color: white !important;
+}
+
+.link-article {
+    color: $greydark;
+}
+
+.img-logo {
+    max-height: 59px;
+}
+
+.nav-size {
+    min-height: 80px;
+}
+
+.nav-item-position {
+    margin: 20px 30px 0px 0px;
+}
+
+.footer {
+    background-color: $greylight;
+    min-height: 250px;
+}
+
+.img-logo-all {
+    max-height: 130px;
+}
+
+.link-article-footer {
+    color: $greenlight;
+}
+
+.title-nav-footer {
+    font-size: 30px;
+    color: $greendark;
 }
