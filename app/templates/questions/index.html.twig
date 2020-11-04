@@ -6,7 +6,7 @@
 
     <p>{{ question.intitule }}</p>
     {% for reponse in  question.reponses %}
-        <a href="{{ path('verifReponse', { 'idQuestionnaire': questionnaire.id ,'idQuestion':question.id, 'idReponse':reponse.id , 'idUtilisateur':utilisateur.id}) }}"><button class="btn btn-success">{{ reponse.intitule }}</button></a>
+        <a href="{{ path('verifReponse', { 'idQuestionnaire': questionnaire.id ,'idQuestion':question.id, 'idReponse':reponse.id , 'idUtilisateur':utilisateur.id}) }}"><button class="btn btn-test">{{ reponse.intitule }}</button></a>
     {% endfor %}
 
 {% endblock %}
