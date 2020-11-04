@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello QuestionnaireController!{% endblock %}
+
+{% block body %}
+
+    <p>{{ question.intitule }}</p>
+    {% for reponse in  question.reponses %}
+        <a href="{{ path('verifReponse', { 'idQuestionnaire': questionnaire.id ,'idQuestion':question.id, 'idReponse':reponse.id , 'idUtilisateur':utilisateur.id}) }}"><button class="btn btn-success">{{ reponse.intitule }}</button></a>
+    {% endfor %}
+
+{% endblock %}

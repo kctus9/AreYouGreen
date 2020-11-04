@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello QuestionnaireController!{% endblock %}
+
+{% block body %}
+
+    {% if utilisateur.score < 0 %}
+        <p style="color: #C82829">{{ utilisateur.score }}</p>
+        <p>Faite des effort réessayer, consulter nos articles pour vous amméliorer</p>
+        <a href="">
+            <button class="btn btn-danger">Consulter articles</button>
+        </a>
+    {% else %}
+        <p style="color: green">{{ utilisateur.score }}</p>
+        <p>Bravo vous êtes trop fort</p>
+        <a href="">
+            <button class="btn btn-success">Recevez resultat</button>
+        </a>
+        <a href="">
+            <button class="btn btn-success">Consulter articles</button>
+        </a>
+    {% endif %}
+
+
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello QuestionnaireController!{% endblock %}
+
+{% block body %}
+
+    {% set count = 0 %}
+    {% for questionnaire in questionnaires %}
+        {% for question in questionnaire.questions %}
+            {% set count = count + 1 %}
+            {% if count == 1 %}
+                <div class="container text-center">
+                    <a href="{{ path('question', {'idQuestionnaire':questionnaire.id,'id': question.id, 'idUtilisateur':utilisateur.id }) }}"><button class="btn btn-success">Commencer le test</button></a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+
+{% endblock %}

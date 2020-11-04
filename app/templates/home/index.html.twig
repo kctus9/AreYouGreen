@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+    <div class="jumbotron">
+        <div class="container">
+            <p>Vous êtes-vous déjà demandé ce que vous savez sur l'écologie et quels sont vos gestes pour la planète?</p>
+
+            <div class="text-center">
+                <p>
+                    <a class="btn btn-success" href="{{ path('start_questionnaire') }}" role="button">Test de purté écologique</a>
+                </p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
