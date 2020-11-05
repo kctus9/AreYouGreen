@@ -1,0 +1,352 @@
+{
+    "Questionnaires" : [
+        {
+            "titre": "Questionaire n°1"
+        }
+    ],
+
+    "ThematiqueQuestions" : [
+        {
+            "intitule": "Déchets"
+        },
+        {
+            "intitule": "Transports"
+        },
+        {
+            "intitule": "Biodiversité"
+        },
+        {
+            "intitule": "Habitat"
+        },
+        {
+            "intitule": "Autre"
+        }
+    ],
+
+    "Questions" : [
+        {
+            "intitule": "A quelle fréquence jetez-vous vos mégots ailleurs que dans une poubelle ou un cendrier ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 1
+        },
+        {
+            "intitule": "Faites-vous le tri sélectif ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 1
+        },
+        {
+            "intitule": "Jetez-vous votre chewing-gum par terre ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 1
+        },
+        {
+            "intitule": "Vous est-il arrivé de jeter des déchets dans la nature ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 1
+        },
+        {
+            "intitule": "Lorsque vous voyez un déchet par terre, vous arrive-t-il de le ramasser pour le mettre à la poubelle ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 1
+        },
+        {
+            "intitule": "Utilisez-vous votre véhicule personnel même si vous pourriez faire le trajet en transport en commun pour une durée sensiblement équivalente (+/- 20 min) ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 2
+        },
+        {
+            "intitule": "Utilisez-vous votre véhicule personnel pour effectuer un trajet que vous pourriez faire en vélo (si la météo vous le permet) ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 2
+        },
+        {
+            "intitule": "Adoptez Vous une conduite économique ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 2
+        },
+        {
+            "intitule": "Avez-vous déjà participé à de l’agriculture urbaine ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 3
+        },
+        {
+            "intitule": "Que pensez vous de la végétation au sein de votre ville ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 3
+        },
+        {
+            "intitule": "Pensez-vous qu’il y’a assez de végétation dans votre ville ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 3
+        },
+        {
+            "intitule": "Seriez vous prêts à participer à la végétalisation de votre ville ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 3
+        },
+        {
+            "intitule": "Réglez-vous votre chauffage au maximum aux premiers signes de froid ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 4
+        },
+        {
+            "intitule": "Laissez-vous la majorité de vos appareils branchés la nuit ou en veille ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 4
+        },
+        {
+            "intitule": "A quelle fréquence sentez-vous de l’air passer par les ouvertures de votre habitat ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 4
+        },
+        {
+            "intitule": "Faites-vous attention à votre consommation d’eau ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 4
+        },
+        {
+            "intitule": "Supprimez-vous vos mails régulièrement ?",
+            "questionnaire": 1,
+            "thematiqueQuestion": 5
+        }    
+    ],
+
+    "Reponses" : [
+        {
+            "intitule": "+ 5x/jour",
+            "questions": 1,
+            "score": -1
+        },
+        {
+            "intitule": "Jamais",
+            "questions": 1,
+            "score": 1
+        },
+
+        {
+            "intitule": "Tout le temps",
+            "questions": 2,
+            "score": 1
+        },
+        {
+            "intitule": "De temps en temps",
+            "questions": 2,
+            "score": 0
+        },
+        {
+            "intitule": "Jamais",
+            "questions": 2,
+            "score": -1
+        },
+
+        {
+            "intitule": "Tout le temps",
+            "questions": 3,
+            "score": -2
+        },
+        {
+            "intitule": "De temps en temps",
+            "questions": 3,
+            "score": -1
+        },
+        {
+            "intitule": "Jamais",
+            "questions": 3,
+            "score": 1
+        },
+
+        {
+            "intitule": "Oui",
+            "questions": 4,
+            "score": -1
+        },
+        {
+            "intitule": "Jamais",
+            "questions": 4,
+            "score": 1
+        },
+
+        {
+            "intitule": "Tout le temps",
+            "questions": 5,
+            "score": 2
+        },
+        {
+            "intitule": "De temps en temps",
+            "questions": 5,
+            "score": 1
+        },
+        {
+            "intitule": "Jamais",
+            "questions": 5,
+            "score": -1
+        },
+
+        {
+            "intitule": "Tout le temps",
+            "questions": 6,
+            "score": 2
+        },
+        {
+            "intitule": "De temps en temps",
+            "questions": 6,
+            "score": 1
+        },
+        {
+            "intitule": "Jamais",
+            "questions": 6,
+            "score": -1
+        },
+
+        {
+            "intitule": "Tout le temps",
+            "questions": 7,
+            "score": 2
+        },
+        {
+            "intitule": "De temps en temps",
+            "questions": 7,
+            "score": 1
+        },
+        {
+            "intitule": "Jamais",
+            "questions": 7,
+            "score": -1
+        },
+
+        {
+            "intitule": "Oui",
+            "questions": 8,
+            "score": -1
+        },
+        {
+            "intitule": "Non",
+            "questions": 8,
+            "score": 1
+        },
+
+        {
+            "intitule": "Oui",
+            "questions": 9,
+            "score": 2
+        },
+        {
+            "intitule": "De temps en temps",
+            "questions": 9,
+            "score": 1
+        },
+        {
+            "intitule": "Jamais",
+            "questions": 9,
+            "score": -1
+        },
+
+        {
+            "intitule": "Une bonne idée",
+            "questions": 10,
+            "score": 1
+        },
+        {
+            "intitule": "Je ne sais pas",
+            "questions": 10,
+            "score": 0
+        },
+        {
+            "intitule": "Je trouve ça inutile",
+            "questions": 10,
+            "score": -1
+        },
+
+        {
+            "intitule": "Oui beaucoup trop",
+            "questions": 11,
+            "score": -1
+        },
+        {
+            "intitule": "Oui juste ce qu’il faut",
+            "questions": 11,
+            "score": 0
+        },
+        {
+            "intitule": "Pas assez",
+            "questions": 11,
+            "score": 1
+        },
+
+        {
+            "intitule": "Oui j’adore ça",
+            "questions": 12,
+            "score": 1
+        },
+        {
+            "intitule": "Pourquoi pas",
+            "questions": 12,
+            "score": 0
+        },
+        {
+            "intitule": "Non je n’ai pas la main verte",
+            "questions": 12,
+            "score": -1
+        },
+
+        {
+            "intitule": "Oui",
+            "questions": 13,
+            "score": -1
+        },
+        {
+            "intitule": "Non",
+            "questions": 13,
+            "score": 1
+        },
+
+        {
+            "intitule": "Oui",
+            "questions": 14,
+            "score": -1
+        },
+        {
+            "intitule": "Non",
+            "questions": 14,
+            "score": 1
+        },
+
+        {
+            "intitule": "Souvent",
+            "questions": 15,
+            "score": -1
+        },
+        {
+            "intitule": "Quelquefois",
+            "questions": 15,
+            "score": 0
+        },
+        {
+            "intitule": "jamais",
+            "questions": 15,
+            "score": 1
+        },
+
+        {
+            "intitule": "Oui",
+            "questions": 16,
+            "score": 1
+        },
+        {
+            "intitule": "Non",
+            "questions": 16,
+            "score": -1
+        },
+
+        {
+            "intitule": "Oui",
+            "questions": 17,
+            "score": 1
+        },
+        {
+            "intitule": "Pas du tout",
+            "questions": 17,
+            "score": -1
+        }
+    ]
+}
