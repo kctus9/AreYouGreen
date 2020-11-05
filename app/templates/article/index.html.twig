@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Articles{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <br><br>
+    <h2>Vous retrouverez ci-dessous tous les articles pour vous informer concernant la ville de demain</h2>
+    <br><br>
+    <a class="nav-link link-article" href={{ path('article_bruit') }}><h3>Le bruit au sein de nos villes</h3></a>
+    <a class="nav-link link-article" href={{ path('article_batiments') }}><h3>Les Batiments écologique</h3></a>
+    <a class="nav-link link-article" href={{ path('article_biodiversite') }}><h3>La Biodiversité</h3></a>
+
+</div>
+{% endblock %}

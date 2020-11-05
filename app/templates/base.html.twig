@@ -3,10 +3,66 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+            {# 'app' must match the first argument to addEntry() in webpack.config.js #}
+            {{ encore_entry_link_tags('app') }}
+
+            <!-- Renders a link tag (if your module requires any CSS)
+                 <link rel="stylesheet" href="/build/app.css"> -->
+        {% endblock %}
     </head>
     <body>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="min-height:80px">
+                <img src="{{ asset('build/logo.png') }}" alt="AYG logo" class="img-logo navbar-brand">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-end nav-size ml-auto">
+
+                        <li class="nav-item nav-item-position">
+                            <a class="nav-link link-article" href={{ path('article') }}>Articles</a>
+                        </li>
+                        <li class="nav-item nav-item-position">
+                            <a role="boutton" class="btn nav-link btn-test" href="#">Test de purté écologique</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row align-items-center footer">
+                    <div class="col-sm d-none d-sm-block">
+                        <img src="{{ asset('build/logo-all.png') }}" alt="AYG all logo" class="img-logo-all mx-auto d-block">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="title-nav-footer">Navigation</div>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link link-article-footer" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-article-footer" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-article-footer" href="#">Link</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm text-center d-none d-md-block">
+                       <a role="boutton" class="btn btn-test" href="#">Test de purté écologique</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        {% block javascripts %}
+        
+            {{ encore_entry_script_tags('app') }}
+
+        {% endblock %}
     </body>
 </html>
