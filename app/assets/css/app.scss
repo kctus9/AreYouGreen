@@ -1,3 +1,13 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 @import "~bootstrap/scss/bootstrap";
 
 $greendark : #3E4D27;
@@ -48,4 +58,8 @@ $greydark : #707070;
 .title-nav-footer {
     font-size: 30px;
     color: $greendark;
+}
+
+.title-color {
+    color: $greenlight;
 }
